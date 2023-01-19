@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lämpötilanmuunnin </title>
+    </head>
+    <body>
+        <h1>Lämpötilanmuunnin</h1>
+
+       <form action="o8.php" method="POST">
+            <p>                  
+                <br>
+                Mihin yksikköön muutetaan: <input type="radio" value="Celsius" name="yksikko" checked>Celsius
+                <input type="radio" value="Fahrenheit" name="yksikko">Fahrenheit
+                <br>
+                <label for="lampotila">Kirjoita muunnettava lämpötila:</label>
+                <input type="text" id="lampotila" name="lampotila" required
+                       minlength="1" maxlength="8" size="10">
+                <input type="submit" name="Lähetä">
+                
+            </p>
+        </form>
+    </body>
+</html>
