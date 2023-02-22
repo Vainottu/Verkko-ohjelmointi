@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $mysqluser = "kauppias";
-$mysqlpassword = "K11@o#n{,V}?";
+$mysqlpassword = "";
 $databasename = "verkkokauppa";
 
 $con = new mysqli($servername, $mysqluser, $mysqlpassword, $databasename);
